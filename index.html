@@ -12,28 +12,30 @@
     <header>
 
         <div class="container">
-           <article>
+           
             <div class="h1">
               <h1>Lone Starfish</h1>
             </div>
-        </div>
+        
     </header>
 
     <main>
-        <div class="container">  
-        <nav role="navigation">
+        <div class="container">
+             
+        <nav>
         <ul>
-            <li><a href= "home"></a>HOME</a></li>
-            <li><a href= "story"></a>STORY</a></li>
-            <li><a href= "contact"></a>CONTACT</a></li>
+            <li><a>HOME</a></li>
+            <li><a>STORY</a></li>
+            <li><a>CONTACT</a></li>
         </ul>
         </nav>  
 
             <div class="h2">
             <h2>Life of a Starfish</h2>
+            </div>
         
 
-        <img src="images/lone-starfish.jpg">
+        <img id="lone-starfish" alt="" width="250" height="250" src="images/lone-starfish.jpg" >
 
         <div class="p">
             <p>
@@ -84,9 +86,11 @@
             <input type="text" id="yemail" name="yemail">
         </form>
 
-        <form>   
-            <label for="ymessage">Your Message</label>
-            <input type="text3" id="ymessage" name="ymessage">
+        <form>
+            <div class="col-88">   
+            <label for="ymessage">Your Message </label>
+           <textarea id="ymessage"name="ymessage" style="height: 100px"></textarea>
+        </div>
           </form>
         
 
@@ -94,7 +98,7 @@
           <h5>Would you like to visit the starfish?</h5>
         </div>
         <div class="wrap">
-          <form action="" class="action">
+          <form action="wrap" class="action">
             <div class="radio"></div>
             <div>
             <label for="yes">Yes</label>   
@@ -106,15 +110,13 @@
             <label for="maybe">Maybe</label>
             <input type="radio" id="maybe" name="options" value="Maybe">
             
+            
         </div>
     </form>
-
-           <input type="button" value="SEND">
-        </input>
+    <input type="button" value="SEND">
+     
         </div>
-           
-
-        </div>
+    </div>
     </main>
 
     <footer>
