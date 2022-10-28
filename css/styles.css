@@ -60,11 +60,208 @@ body {
     background-color: #d4e9e7;
     width: 1025px;
     margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+
+header .container{
+	background-image: url("../images/lone-starfish-wide.jpg");
+	width: 1024px; height: 340px;
+		
 	
 }
 
-
-img {
-	margin: auto 0;
+header .h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 55pt;
+	color: white;
+	padding-top: 200px;
+	text-align: center;
+	
+	
 }
+
+nav li{
+	display:inline-block; 
+	margin-top: 10px;
+	padding-right: 120.5px;
+	padding-left: 124px;
+	border-right: 1px solid black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+
+
+main .h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 26pt;
+margin-top: 50px;
+margin-left: 8px;
+
+}
+
+main .p{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3;
+	margin-top: 27px;
+	margin-left: 6px;
+	margin-right: 8px;	
+}
+
+img{
+	width: 250px; height: 250px;
+	float:left;
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
+
+main .h3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 23pt;
+margin-top: 40px;
+margin-left: 8pt;
+}
+
+main .unorderedlist{
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 12pt;
+}
+
+
+
+main .h4{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23pt;
+	margin-top: 40px;
+	margin-left: 8px;
+	}
+
+main .form{
+	font-weight: bold;
+	padding-left: 18px;
+	padding-top: 20px;
+	font-size: 12pt;
+	margin-top: 10px;
+	margin-left: 9px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	width: 980px;
+	
+}
+
+input[type=text]{
+  width: 960px;
+  padding: 9px 40px;
+  margin: 15px 0;
+  margin-left: 2px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+}
+
+input[type=text3]{
+	width: 960px;
+	padding: 101px 40px;
+	margin: 15px 0;
+	margin-left: 2px;
+	box-sizing: border-box;
+	border: 1px solid #cccccc;
+	
+  }
+
+  main .h5{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+  }
+
+  .wrap {
+	margin-top: 15px;
+	margin-left: 2px;
+    width: 100%;
+    padding-right: 2px;
+  }
+
+  input[type=radio]{
+	width: 5%;
+	margin: -8px;
+	
+	
+  }
+
+  input[type=button]{
+	background-color: #d4e9e7;
+	border: 1px solid black;
+	padding: 5px 1px;
+	width: 35px;
+	margin: 18px 2px;
+	cursor: pointer;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+  }
+
+  footer .container{
+	width: 1025px;
+	height: 100px;
+	
+	
+  }
+
+  .h6{
+	
+	margin-right: 30px;
+	font-size: 15pt;
+	font-weight: bold;
+	text-align: right;
+	padding-top: 60px;
+	padding-left: 10px;
+  }
+
+  
+
+  
+    
+
+  
+ 
+	
+
+	
+
+	
+	
+
+
+
+
+
+
+  
+
+
+
+	
+	
+
+
+	
+
+	
+	
+
+
+
+
+
+
+
+
+
 
