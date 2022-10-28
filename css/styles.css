@@ -146,11 +146,16 @@ main .unorderedlist{
 	font-size: 23pt;
 	margin-top: 1px;
 	margin-left: 10px;
-	
 	text-align: left;
 	}
 
-.form{
+  footer .container{
+	width: 1025px;
+	height: 550px;
+	padding-top: 15px;	
+  }
+
+  .form{
 	font-weight: bold;
 	padding-left: 18px;
 	padding-top: 10px;
@@ -210,15 +215,6 @@ input[type=text], textarea {
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: left;
-  }
-
-  footer .container{
-	width: 1025px;
-	height: 550px;
-	padding-top: 15px;
-
-	
-	
   }
 
   .h6{
