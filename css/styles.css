@@ -131,34 +131,40 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 23pt;
 margin-top: 40px;
 margin-left: 8pt;
+margin-bottom: 5px;
 }
 
 main .unorderedlist{
 	margin-top: 20px;
 	margin-left: 30px;
+	padding-bottom: 2px;
 	font-size: 12pt;
 }
 
 
 
-main .h4{
+.h4{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 23pt;
-	margin-top: 40px;
+	margin-top: 15px;
 	margin-left: 8px;
+	margin-bottom: 13pt;
+	text-align: left;
 	}
 
-main .form{
+.form{
 	font-weight: bold;
 	padding-left: 18px;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 12pt;
 	margin-top: 10px;
 	margin-left: 11px;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: black;
 	width: 980px;
+	height: 460px;
+	background-color: #d4e9e7;
 	
 }
 
@@ -172,21 +178,25 @@ input[type=text], textarea {
 }
 
 
-  main .h5{
+  .h5{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15pt;
+	font-size: 20pt;
+	margin-left: 8px;
+	margin-top: 10px;
+	text-align: left;
+	font-weight: bold;
   }
 
   .wrap {
 	margin-top: 20px;
-	margin-left: 2px;
+	margin-left: 12px;
     width: 100%;
     padding-right: 2px;
   }
 
   input[type=radio]{
 	width: 5%;
-	margin: -8px;
+	margin: -10px;
 	
 	
   }
@@ -197,6 +207,7 @@ input[type=text], textarea {
 	padding: 10px 8px;
 	width: 50px;
 	margin: 18px 2px;
+	margin-left: 12px;
 	cursor: pointer;
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -205,7 +216,9 @@ input[type=text], textarea {
 
   footer .container{
 	width: 1025px;
-	height: 500px;
+	height: 650px;
+	padding-top: 20px;
+
 	
 	
   }
