@@ -161,7 +161,7 @@ main .unorderedlist{
 	border-width: 2px;
 	border-color: black;
 	width: 980px;
-	height: 460px;
+	height: 450px;
 	background-color: #d4e9e7;
 	
 }
@@ -186,7 +186,7 @@ input[type=text], textarea {
   }
 
   .wrap {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 12px;
     width: 100%;
     padding-right: 2px;
@@ -214,7 +214,7 @@ input[type=text], textarea {
 
   footer .container{
 	width: 1025px;
-	height: 700px;
+	height: 600px;
 	padding-top: 20px;
 
 	
