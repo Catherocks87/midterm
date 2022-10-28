@@ -63,6 +63,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;	
 }
 
+/*HERE STARTS THE HEADER*/
 
 header .container{
 	background-image: url("../images/lone-starfish-wide.jpg");
@@ -80,7 +81,7 @@ header .h1{
 	
 }
 
-
+/*HERE STARTS THE MAIN CONTENT*/
 
 nav li{
 	display:inline-block; 
@@ -97,7 +98,6 @@ nav li{
 li{
 	text-decoration: none;
 }
-
 
 
 main .h2 {
@@ -148,6 +148,8 @@ main .unorderedlist{
 	margin-left: 10px;
 	text-align: left;
 	}
+
+/*HERE STARTS THE FOOTER CONTENT*/	
 
   footer .container{
 	width: 1025px;
@@ -219,12 +221,12 @@ input[type=text], textarea {
 
   .h6{
 	
-	margin-right: 20px;
+	margin-right: 50px;
 	font-size: 15pt;
 	font-weight: bold;
 	text-align: right;
 	padding-top: 40px;
-	padding-left: 10px;
+	
   }
 
   
